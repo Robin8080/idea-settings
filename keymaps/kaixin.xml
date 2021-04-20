@@ -1,0 +1,14 @@
+<keymap version="1" name="kaixin" parent="$default">
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="EditorDecreaseFontSize">
+    <mouse-shortcut keystroke="control button142" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <mouse-shortcut keystroke="control button143" />
+  </action>
+  <action id="EditorSelectWord" />
+  <action id="SmartSelect" />
+  <action id="TableResult.GrowSelection" />
+</keymap>
