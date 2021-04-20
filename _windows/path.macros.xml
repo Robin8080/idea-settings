@@ -1,5 +1,5 @@
 <application>
   <component name="PathMacrosImpl">
-    <macro name="MAVEN_REPOSITORY" value="C:\Users\itheima\.m2\repository" />
+    <macro name="MAVEN_REPOSITORY" value="D:/05_environment/maven-repository/raobing_repository" />
   </component>
 </application>
