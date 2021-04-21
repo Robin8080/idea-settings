@@ -9,6 +9,14 @@
     <mouse-shortcut keystroke="control button143" />
   </action>
   <action id="EditorSelectWord" />
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
+  <action id="NewClass">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="SmartSelect" />
   <action id="TableResult.GrowSelection" />
 </keymap>
