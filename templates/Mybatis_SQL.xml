@@ -1,0 +1,9 @@
+<templateSet group="Mybatis/SQL">
+  <template name="sqls" value="InputStream is = null;&#10;SqlSession sqlSession = null;&#10;//1.Resources加载配置资源&#10;try {&#10;    is = Resources.getResourceAsStream(&quot;main/resoures/SqlMapConfig.xml&quot;);&#10;    //2.SqlSessionFactoryBuilder 对象构建SqlSessionFactory&#10;    SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(is);&#10;    //3.SqlSessionFacotory 创建SqlSessiond对象&#10;    sqlSession = sqlSessionFactory.openSession(true);&#10;    //4.SqlSession完成执行sql语句&#10;&#10;} catch (IOException e) {&#10;    e.printStackTrace();&#10;} finally {&#10;    // 关闭SqlSession对象&#10;    if (sqlSession != null) {&#10;        sqlSession.close();&#10;    }&#10;    // 关闭InputStream对象&#10;    if (is != null) {&#10;        try {&#10;            is.close();&#10;        } catch (IOException e) {&#10;            e.printStackTrace();&#10;        }&#10;    }&#10;}" description="get SqlSession" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CONSUMER" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="MAVEN" value="true" />
+    </context>
+  </template>
+</templateSet>
