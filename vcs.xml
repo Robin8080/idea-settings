@@ -10,6 +10,10 @@
           <option name="url" value="https://gitee.com/wien717651800/itcast.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/liu15871531809/jpacman.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\04_projects\2021_idea_coding" />
