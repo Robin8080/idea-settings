@@ -1,0 +1,19 @@
+<application>
+  <component name="AppStorage">
+    <option name="newTranslationDialogWidth" value="596" />
+    <option name="newTranslationDialogX" value="623" />
+    <option name="newTranslationDialogY" value="342" />
+    <histories>
+      <item value="Singletons are most commonly used, and are ideal for multi-threaded&#10;&#9;service objects. Further scopes, such as &quot;request&quot; or &quot;session&quot;, might&#10;&#9;be supported by extended bean factories (e.g. in a web environment)." />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="1" />
+        <entry key="ENGLISH" value="1" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1633592466592" />
+  </component>
+</application>
