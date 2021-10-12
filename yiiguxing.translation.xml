@@ -1,7 +1,7 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogWidth" value="594" />
-    <option name="newTranslationDialogX" value="623" />
+    <option name="newTranslationDialogWidth" value="592" />
+    <option name="newTranslationDialogX" value="622" />
     <option name="newTranslationDialogY" value="342" />
     <histories>
       <item value="The name of a factory method to use to create this object. Use constructor-arg elements to specify arguments to the factory method, if it takes arguments. Autowiring does not apply to factory methods. If the &quot;class&quot; attribute is present, the factory method will be a static method on the class specified by the &quot;class&quot; attribute on this bean definition. Often this will be the same class as that of the constructed object - for example, when the factory method is used as an alternative to a constructor. However, it may be on a different class. In that case, the created object will not be of the class specified in the &quot;class&quot; attribute. This is analogous to FactoryBean behavior." />
