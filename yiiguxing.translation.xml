@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="342" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Unsatisfied" />
       <item value="true" />
       <item value="initialized" />
       <item value="register the natives via the static initializer." />
@@ -16,12 +17,12 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="3" />
-        <entry key="ENGLISH" value="3" />
+        <entry key="ENGLISH" value="4" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1633592466592" />
+    <option name="lastTrimTime" value="1634037140496" />
   </component>
   <component name="Settings">
     <option name="googleTranslateSettings">
