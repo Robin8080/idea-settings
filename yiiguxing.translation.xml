@@ -1,10 +1,13 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogWidth" value="590" />
+    <option name="newTranslationDialogWidth" value="584" />
     <option name="newTranslationDialogX" value="622" />
     <option name="newTranslationDialogY" value="342" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="true" />
+      <item value="initialized" />
+      <item value="register the natives via the static initializer." />
       <item value="The name of a factory method to use to create this object. Use constructor-arg elements to specify arguments to the factory method, if it takes arguments. Autowiring does not apply to factory methods. If the &quot;class&quot; attribute is present, the factory method will be a static method on the class specified by the &quot;class&quot; attribute on this bean definition. Often this will be the same class as that of the constructed object - for example, when the factory method is used as an alternative to a constructor. However, it may be on a different class. In that case, the created object will not be of the class specified in the &quot;class&quot; attribute. This is analogous to FactoryBean behavior." />
       <item value="foo" />
       <item value="foot" />
@@ -12,8 +15,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="2" />
-        <entry key="ENGLISH" value="1" />
+        <entry key="CHINESE" value="3" />
+        <entry key="ENGLISH" value="3" />
       </map>
     </option>
   </component>
@@ -21,6 +24,11 @@
     <option name="lastTrimTime" value="1633592466592" />
   </component>
   <component name="Settings">
+    <option name="googleTranslateSettings">
+      <google-translate>
+        <option name="useTranslateGoogleCom" value="true" />
+      </google-translate>
+    </option>
     <option name="youdaoTranslateSettings">
       <youdao-translate>
         <option name="appId" value="13bb20da62b1370f " />
