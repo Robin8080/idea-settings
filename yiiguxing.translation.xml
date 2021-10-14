@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="342" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="The name of the custom destroy method to invoke on bean factory shutdown. The method must have no arguments, but may throw any exception. This is an alternative to implementing Spring's DisposableBean interface or the standard Java CloseableAutoCloseable interface, or marking a method with the PreDestroy annotation. Note: Only invoked on beans whose lifecycle is under the full control of the factory - which is always the case for singletons, but not guaranteed for any other scope." />
       <item value="Can be used to create one or more aliases illegal in an (XML) id. Multiple aliases can be separated by any number of spaces, commas, or semi-colons (or indeed any mixture of the three)." />
       <item value="o match for this type name: com.itheima.dao [Xlint:invalidAbsoluteTypeName] at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)" />
       <item value="Unsatisfied" />
@@ -18,8 +19,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="5" />
-        <entry key="ENGLISH" value="6" />
+        <entry key="CHINESE" value="6" />
+        <entry key="ENGLISH" value="7" />
       </map>
     </option>
   </component>
