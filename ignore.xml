@@ -30,7 +30,7 @@
       <language id="Up" NEW_FILE="true" ENABLE="false" />
     </languages>
     <userTemplates>
-      <template name="ignore">### Example user template
+      <template name="git-ignore">### Example user template
 
 # IntelliJ project files
 .idea

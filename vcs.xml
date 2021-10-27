@@ -14,9 +14,13 @@
           <option name="url" value="https://gitee.com/liu15871531809/jpacman.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitee.com/whitcast/redis.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\04_projects\2021_idea_coding" />
+    <option name="cloneParentDir" value="D:\04_projects\2021_idea_coding_v2.0\reggie_project" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ID_ORDER">
