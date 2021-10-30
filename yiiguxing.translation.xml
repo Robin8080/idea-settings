@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="342" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="less required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the Lice" />
       <item value="Helper class that simplifies Redis data access code. &lt;p&gt; Performs automatic serializationdeserialization between the given objects and the underlying binary data in the Redis store. By default, it uses Java serialization for its objects (through {@link JdkSerializationRedisSerializer} ). For String intensive operations consider the dedicated {@link StringRedisTemplate}. &lt;p&gt; The central method is execute, supporting Redis access code implementing the {@link RedisCallback} interface. It provides {@link RedisConnection} handling such that neither the {@link RedisCallback} implementation nor the calling code needs to explicitly care about retrievingclosing Redis connections, or handling Connection lifecycle exceptions. For typical single step actions, there are various convenience methods. &lt;p&gt; Once configured, this class is thread-safe. &lt;p&gt; Note that while the template is generified, it is up to the serializersdeserializers to properly convert the given Objects to and from binary data. &lt;p&gt; &lt;b&gt;This is the central class in Redis support&lt;b&gt;." />
       <item value="Spring Expression Language (SpEL) expression for computing the key dynamically. Default is &quot;&quot;, meaning all method parameters are considered as a key, unless a custom keyGenerator has been set. The SpEL expression evaluates against a dedicated context that provides the following meta-data: result for a reference to the result of the method invocation. For supported wrappers such as Optional, result refers to the actual object, not the wrapper root.method, root.target, and root.caches for references to the method, target object, and affected cache(s) respectively. Shortcuts for the method name (root.methodName) and target class (root.targetClass) are also available. Method arguments can be accessed by index. For instance the second argument can be accessed via root.args[1], p1 or a1. Arguments can also be accessed by name if that information is available." />
       <item value="MILLISECONDS" />
@@ -23,8 +24,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="10" />
-        <entry key="ENGLISH" value="11" />
+        <entry key="CHINESE" value="11" />
+        <entry key="ENGLISH" value="12" />
       </map>
     </option>
   </component>
