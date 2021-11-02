@@ -1,4 +1,6 @@
 <keymap version="1" name="kaixin" parent="$default">
+  <action id="Arrangement.Alias.Rule.Add" />
+  <action id="Arrangement.Rule.Add" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
@@ -10,14 +12,18 @@
   </action>
   <action id="EditorMatchBrace" />
   <action id="EditorSelectWord" />
-  <action id="FileChooser.NewFolder">
-    <keyboard-shortcut first-keystroke="alt insert" />
+  <action id="FileChooser.NewFolder" />
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="alt g" />
   </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
   <action id="NewClass">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
+  <action id="NewElement" />
+  <action id="ServiceView.AddService" />
   <action id="SmartSelect" />
   <action id="TableResult.GrowSelection" />
+  <action id="Uml.NewElement" />
 </keymap>
