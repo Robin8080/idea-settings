@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="342" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Alternative to class attribute for factory-method usage. If this is specified, no class attribute should be used. This must be set to the name of a bean in the current or ancestor factories that contains the relevant factory method. This allows the factory itself to be configured using Dependency Injection, and an instance (rather than static) method to be used." />
       <item value="The scope of this bean: typically &quot;singleton&quot; (one shared instance, which will be returned by all calls to getBean with the given id), or &quot;prototype&quot; (independent instance resulting from each call to getBean). By default, a bean will be a singleton, unless the bean has a parent bean definition in which case it will inherit the parent's scope. Singletons are most commonly used, and are ideal for multi-threaded service objects. Further scopes, such as &quot;request&quot; or &quot;session&quot;, might be supported by extended bean factories (e.g. in a web environment). Inner bean definitions inherit the scope of their containing bean definition, unless explicitly specified: The inner bean will be a singleton if the containing bean is a singleton, and a prototype if the containing bean is a prototype, etc." />
       <item value="Autowiring by property name. If a bean of class Cat exposes a &quot;dog&quot; property, Spring will try to set this to the value of the bean &quot;dog&quot; in the current container. If there is no matching bean by name, nothing special happens." />
       <item value="Indicates whether this bean is to be lazily initialized. If &quot;false&quot;, it will be instantiated on startup by bean factories that perform eager initialization of singletons. The effective default is &quot;false&quot;. Note: This attribute will not be inherited by child bean definitions. Hence, it needs to be specified per concrete bean definition. It can be shared through the 'default-lazy-init' attribute at the 'beans' level and potentially inherited from outer 'beans' defaults in case of nested 'beans' sections (e.g. with different profiles)." />
@@ -28,8 +29,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="14" />
-        <entry key="ENGLISH" value="15" />
+        <entry key="CHINESE" value="16" />
+        <entry key="ENGLISH" value="17" />
       </map>
     </option>
   </component>
