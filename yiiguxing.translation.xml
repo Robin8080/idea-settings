@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="342" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Scans the classpath for annotated components that will be auto-registered as Spring beans. By default, the Spring-provided @Component, @Repository, @Service, @Controller, @RestController, @ControllerAdvice, and @Configuration stereotypes will be detected. Note: This tag implies the effects of the 'annotation-config' tag, activating @Required, @Autowired, @PostConstruct, @PreDestroy, @Resource, @PersistenceContext and @PersistenceUnit annotations in the component classes, which is usually desired for autodetected components (without external configuration). Turn off the 'annotation-config' attribute to deactivate this default behavior, for example in order to use custom BeanPostProcessor definitions for handling those annotations. Note: You may use placeholders in package paths, but only resolved against system properties (analogous to resource paths). A component scan results in new bean definitions being registered; Spring's PropertySourcesPlaceholderConfigurer will apply to those bean definitions just like to regular bean definitions, but it won't apply to the component scan settings themselves. See javadoc for org.springframework.context.annotation.ComponentScan for information on code-based alternatives to bootstrapping component-scanning." />
       <item value="The traditional Spring default. No automagical wiring. Bean references must be defined in the XML file via the &lt;ref&gt; element (or &quot;ref&quot; attribute). We recommend this in most cases as it makes documentation more explicit." />
       <item value="Controls whether bean properties are &quot;autowired&quot;. This is an automagical process in which bean references don't need to be coded explicitly in the XML bean definition file, but rather the Spring container works out dependencies. The effective default is &quot;no&quot;." />
       <item value="Analogous to &quot;byType&quot; for constructor arguments. If there is not exactly one bean of the constructor argument type in the bean factory, a fatal error is raised. Note that explicit dependencies, i.e. &quot;property&quot; and &quot;constructor-arg&quot; elements, always override autowiring. Note: This attribute will not be inherited by child bean definitions. Hence, it needs to be specified per concrete bean definition. It can be shared through the 'default-autowire' attribute at the 'beans' level and potentially inherited from outer 'beans' defaults in case of nested 'beans' sections (e.g. with different profiles)." />
@@ -39,8 +40,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="39" />
-        <entry key="ENGLISH" value="40" />
+        <entry key="CHINESE" value="40" />
+        <entry key="ENGLISH" value="41" />
       </map>
     </option>
   </component>
