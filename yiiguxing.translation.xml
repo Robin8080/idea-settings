@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="342" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="The commasemicolonspacetablinefeed-separated list of packages to scan for annotated components." />
       <item value="Controls which eligible types to exclude for component scanning." />
       <item value="Scans the classpath for annotated components that will be auto-registered as Spring beans. By default, the Spring-provided @Component, @Repository, @Service, @Controller, @RestController, @ControllerAdvice, and @Configuration stereotypes will be detected. Note: This tag implies the effects of the 'annotation-config' tag, activating @Required, @Autowired, @PostConstruct, @PreDestroy, @Resource, @PersistenceContext and @PersistenceUnit annotations in the component classes, which is usually desired for autodetected components (without external configuration). Turn off the 'annotation-config' attribute to deactivate this default behavior, for example in order to use custom BeanPostProcessor definitions for handling those annotations. Note: You may use placeholders in package paths, but only resolved against system properties (analogous to resource paths). A component scan results in new bean definitions being registered; Spring's PropertySourcesPlaceholderConfigurer will apply to those bean definitions just like to regular bean definitions, but it won't apply to the component scan settings themselves. See javadoc for org.springframework.context.annotation.ComponentScan for information on code-based alternatives to bootstrapping component-scanning." />
       <item value="Activates various annotations to be detected in bean classes: Spring's @Required and @Autowired, as well as JSR 250's @PostConstruct, @PreDestroy and @Resource (if available), JAX-WS's @WebServiceRef (if available), EJB 3's @EJB (if available), and JPA's @PersistenceContext and @PersistenceUnit (if available). Alternatively, you may choose to activate the individual BeanPostProcessors for those annotations. Note: This tag does not activate processing of Spring's @Transactional or EJB 3's @TransactionAttribute annotation. Consider the use of the &lt;tx:annotation-driven&gt; tag for that purpose. See javadoc for org.springframework.context.annotation.AnnotationConfigApplicationContext for information on code-based alternatives to bootstrapping annotation-driven support." />
@@ -42,8 +43,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="47" />
-        <entry key="ENGLISH" value="48" />
+        <entry key="CHINESE" value="48" />
+        <entry key="ENGLISH" value="49" />
       </map>
     </option>
   </component>
