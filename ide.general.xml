@@ -3,7 +3,6 @@
     <option name="showTipsOnStartup" value="false" />
   </component>
   <component name="Registry">
-    <entry key="compiler.automake.allow.when.app.running" value="true" />
     <entry key="ide.suppress.double.click.handler" value="true" />
   </component>
 </application>
