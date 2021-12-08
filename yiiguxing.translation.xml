@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="342" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="用于处理特定处理程序类和或处理程序方法中的异常的注释。" />
       <item value="the next adv" />
       <item value="This property specifies the annotation that the scanner will search for. The scanner will register all interfaces in the base package that also have the specified annotation. Note this can be combined with markerInterface. Params: annotationClass – annotation class" />
       <item value="This property specifies the annotation that the scanner will search for. &lt;p&gt; The scanner will register all interfaces in the base package that also have the specified annotation. &lt;p&gt; Note this can be combined with markerInterface. @param annotationClass annotation class" />
@@ -49,8 +50,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="53" />
-        <entry key="ENGLISH" value="54" />
+        <entry key="CHINESE" value="55" />
+        <entry key="ENGLISH" value="55" />
       </map>
     </option>
   </component>
