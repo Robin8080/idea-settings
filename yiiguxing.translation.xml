@@ -6,6 +6,8 @@
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
       <item value="Whether resources are filtered to replace tokens with parameterised values or not. The values are taken from the &amp;lt;code&amp;gt;properties&amp;lt;code&amp;gt; element and from the properties in the files listed in the &amp;lt;code&amp;gt;filters&amp;lt;code&amp;gt; element." />
+      <item value="Describe the directory where the resources are stored. The path is relative to the POM." />
+      <item value="This element describes all of the classpath resources such as properties files associated with a project. These resources are often included in the final package." />
       <item value="Distribution information for a project that enables deployment of the site and artifacts to remote web servers and repositories respectively." />
       <item value="distribution Management" />
       <item value="The modules (sometimes called subprojects) to build as a part of this project. Each module listed is a relative path to the directory containing the module." />
@@ -54,8 +56,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="59" />
-        <entry key="ENGLISH" value="60" />
+        <entry key="CHINESE" value="63" />
+        <entry key="ENGLISH" value="64" />
       </map>
     </option>
   </component>
