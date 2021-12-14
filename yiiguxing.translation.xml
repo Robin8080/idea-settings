@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="342" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Indicates the dependency is optional for use of this library. While the version of the dependency will be taken into account for dependency calculation if the library is used elsewhere, it will not be passed on transitively." />
       <item value="Whether resources are filtered to replace tokens with parameterised values or not. The values are taken from the &amp;lt;code&amp;gt;properties&amp;lt;code&amp;gt; element and from the properties in the files listed in the &amp;lt;code&amp;gt;filters&amp;lt;code&amp;gt; element." />
       <item value="Describe the directory where the resources are stored. The path is relative to the POM." />
       <item value="This element describes all of the classpath resources such as properties files associated with a project. These resources are often included in the final package." />
@@ -56,8 +57,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="64" />
-        <entry key="ENGLISH" value="65" />
+        <entry key="CHINESE" value="65" />
+        <entry key="ENGLISH" value="66" />
       </map>
     </option>
   </component>
