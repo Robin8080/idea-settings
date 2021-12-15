@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="342" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Use names and ensure unique to protect against duplicates" />
       <item value="Canonical names should be kebab-case ('-' separated), lowercase alpha-numeric characters and must start with a letter" />
       <item value="Indicates the dependency is optional for use of this library. While the version of the dependency will be taken into account for dependency calculation if the library is used elsewhere, it will not be passed on transitively." />
       <item value="Whether resources are filtered to replace tokens with parameterised values or not. The values are taken from the &amp;lt;code&amp;gt;properties&amp;lt;code&amp;gt; element and from the properties in the files listed in the &amp;lt;code&amp;gt;filters&amp;lt;code&amp;gt; element." />
@@ -54,12 +55,11 @@
       <item value="The name of a factory method to use to create this object. Use constructor-arg elements to specify arguments to the factory method, if it takes arguments. Autowiring does not apply to factory methods. If the &quot;class&quot; attribute is present, the factory method will be a static method on the class specified by the &quot;class&quot; attribute on this bean definition. Often this will be the same class as that of the constructed object - for example, when the factory method is used as an alternative to a constructor. However, it may be on a different class. In that case, the created object will not be of the class specified in the &quot;class&quot; attribute. This is analogous to FactoryBean behavior." />
       <item value="foo" />
       <item value="foot" />
-      <item value="Singletons are most commonly used, and are ideal for multi-threaded&#10;&#9;service objects. Further scopes, such as &quot;request&quot; or &quot;session&quot;, might&#10;&#9;be supported by extended bean factories (e.g. in a web environment)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="67" />
-        <entry key="ENGLISH" value="68" />
+        <entry key="CHINESE" value="68" />
+        <entry key="ENGLISH" value="69" />
       </map>
     </option>
   </component>
