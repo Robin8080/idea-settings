@@ -74,7 +74,21 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="originUrl" value="" />
+        <option name="className" value="com.itheima.controller.UserController" />
+        <option name="method" value="save" />
+        <option name="methodDescription" value="" />
+        <option name="methodType" value="POST" />
+        <option name="module" value="springmvc_day02_03_annotation_restful" />
+        <option name="originUrl" value="/users/" />
+        <option name="requestParamMap">
+          <map>
+            <entry key="user">
+              <value>
+                <Object />
+              </value>
+            </entry>
+          </map>
+        </option>
       </ParamGroup>
     </option>
     <option name="randomStringLength" value="5" />
