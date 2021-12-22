@@ -79,7 +79,7 @@
         <option name="methodDescription" value="" />
         <option name="methodType" value="POST" />
         <option name="module" value="springmvc_day02_03_annotation_restful" />
-        <option name="originUrl" value="/users/" />
+        <option name="originUrl" value="" />
         <option name="requestParamMap">
           <map>
             <entry key="user">
