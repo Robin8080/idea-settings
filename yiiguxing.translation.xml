@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="342" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="present" />
       <item value="constructor, field, setter method, or config method as to be autowired by Spring's dependency injection facilities. This is an alternative to the JSR-330 javax.inject.Inject annotation, adding required-vs-optional semantics. Autowired Constructors" />
       <item value="Note: This tag implies the effects of the 'annotation-config' tag, activating @Required, @Autowired, @PostConstruct, @PreDestroy, @Resource, @PersistenceContext and @PersistenceUnit annotations in the component classes, which is usually desired for autodetected components (without external configuration). Turn off the 'annotation-config' attribute to deactivate this default behavior, for example in order to use custom BeanPostProcessor definitions for handling those annotations." />
       <item value="Intended to be used when no other attributes are needed, for example: @Be" />
@@ -54,12 +55,11 @@
       <item value="Alternative to class attribute for factory-method usage" />
       <item value="Alternative" />
       <item value="This allows the factory itself to be configured using Dependency Injection, and an instance (rather than static) method to be used." />
-      <item value="The scope of this bean: typically &quot;singleton&quot; (one shared instance, which will be returned by all calls to getBean with the given id), or &quot;prototype&quot; (independent instance resulting from each call to getBean). By default, a bean will be a singleton, unless the bean has a parent bean definition in which case it will inherit the parent's scope. Singletons are most commonly used, and are ideal for multi-threaded service objects. Further scopes, such as &quot;request&quot; or &quot;session&quot;, might be supported by extended bean factories (e.g. in a web environment). Inner bean definitions inherit the scope of their containing bean definition, unless explicitly specified: The inner bean will be a singleton if the containing bean is a singleton, and a prototype if the containing bean is a prototype, etc." />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="88" />
-        <entry key="ENGLISH" value="88" />
+        <entry key="ENGLISH" value="89" />
       </map>
     </option>
   </component>
