@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="342" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Intended to be used when no other attributes are needed, for example: @Be" />
       <item value="Analogous to &quot;byType&quot; for constructor arguments. If there is not exactly one bean of the constructor argument type in the bean factory, a fatal error is raised." />
       <item value="ontrols whether bean properties are &quot;autowired&quot;. This is an automagical process in which bean references don't need to be coded explicitly in the XML bean definition file, but rather the Spring container works out dependencies. The effective default is &quot;no&quot;" />
       <item value="Ambiguous" />
@@ -54,12 +55,11 @@
       <item value="The scope of this bean: typically &quot;singleton&quot; (one shared instance, which will be returned by all calls to getBean with the given id), or &quot;prototype&quot; (independent instance resulting from each call to getBean). By default, a bean will be a singleton, unless the bean has a parent bean definition in which case it will inherit the parent's scope. Singletons are most commonly used, and are ideal for multi-threaded service objects. Further scopes, such as &quot;request&quot; or &quot;session&quot;, might be supported by extended bean factories (e.g. in a web environment). Inner bean definitions inherit the scope of their containing bean definition, unless explicitly specified: The inner bean will be a singleton if the containing bean is a singleton, and a prototype if the containing bean is a prototype, etc." />
       <item value="Indicates whether this bean is to be lazily initialized. If &quot;false&quot;, it will be instantiated on startup by bean factories that perform eager initialization of singletons. The effective default is &quot;false&quot;. Note: This attribute will not be inherited by child bean definitions. Hence, it needs to be specified per concrete bean definition. It can be shared through the 'default-lazy-init' attribute at the 'beans' level and potentially inherited from outer 'beans' defaults in case of nested 'beans' sections (e.g. with different profiles)." />
       <item value="our formatting needs). When the pattern attribute is specified, it takes precedence over both the style and ISO attribute. When the iso attribute is specified, it takes precedence over the style attribute. When no annotation attributes are specified, the default format applied is style-based with a style code of 'SS' (short date, short time). Time Zones Whenever the style or pattern attribute is used, the default time zone of the JVM will be used when formatting java.util.Date values. Whenever the iso attribute is used when formatting java.util.Date values, UTC will be used as the time zo" />
-      <item value="less required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the Lice" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="85" />
-        <entry key="ENGLISH" value="86" />
+        <entry key="CHINESE" value="86" />
+        <entry key="ENGLISH" value="87" />
       </map>
     </option>
   </component>
