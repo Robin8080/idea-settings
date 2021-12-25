@@ -2,5 +2,6 @@
   <component name="ConfigState">
     <option name="macUUID" value="b42bb841-f515-402e-b1b5-dd334080fd17" />
     <option name="longNum" value="自动" />
+    <option name="licenseError" value="true" />
   </component>
 </application>
