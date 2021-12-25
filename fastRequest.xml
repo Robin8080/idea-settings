@@ -79,7 +79,7 @@
         <option name="methodDescription" value="" />
         <option name="methodType" value="GET" />
         <option name="module" value="springmvc_day01_01_annotation_quickstart" />
-        <option name="originUrl" value="/user2" />
+        <option name="originUrl" value="" />
         <option name="requestParamMap">
           <map>
             <entry key="card">
