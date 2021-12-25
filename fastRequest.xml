@@ -89,6 +89,7 @@
             </entry>
           </map>
         </option>
+        <option name="url" value="" />
       </ParamGroup>
     </option>
     <option name="randomStringLength" value="5" />
