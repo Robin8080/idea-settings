@@ -5,9 +5,9 @@
     <option name="newTranslationDialogY" value="342" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Can be used to create one or more aliases illegal in an (XML) id. Multiple aliases can be separated by any number of spaces, commas, or semi-colons (or indeed any mixture of the three)." />
       <item value="produces = &quot;textplain;charset=UTF-8&quot;" />
       <item value="Alternative to class attribute for factory-method usage. If this is specified, no class attribute should be used. This must be set to the name of a bean in the current or ancestor factories that contains the relevant factory method. This allows the factory itself to be configured using Dependency Injection, and an instance (rather than static) method to be used." />
-      <item value="Can be used to create one or more aliases illegal in an (XML) id. Multiple aliases can be separated by any number of spaces, commas, or semi-colons (or indeed any mixture of the three)." />
       <item value="present" />
       <item value="constructor, field, setter method, or config method as to be autowired by Spring's dependency injection facilities. This is an alternative to the JSR-330 javax.inject.Inject annotation, adding required-vs-optional semantics. Autowired Constructors" />
       <item value="Note: This tag implies the effects of the 'annotation-config' tag, activating @Required, @Autowired, @PostConstruct, @PreDestroy, @Resource, @PersistenceContext and @PersistenceUnit annotations in the component classes, which is usually desired for autodetected components (without external configuration). Turn off the 'annotation-config' attribute to deactivate this default behavior, for example in order to use custom BeanPostProcessor definitions for handling those annotations." />
@@ -58,8 +58,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="91" />
-        <entry key="ENGLISH" value="92" />
+        <entry key="CHINESE" value="92" />
+        <entry key="ENGLISH" value="93" />
       </map>
     </option>
   </component>
