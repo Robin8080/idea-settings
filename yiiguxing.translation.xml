@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="342" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Whether resources are filtered to replace tokens with parameterised values or not. The values are taken from the &amp;lt;code&amp;gt;properties&amp;lt;code&amp;gt; element and from the properties in the files listed in the &amp;lt;code&amp;gt;filters&amp;lt;code&amp;gt; element." />
       <item value="no custom rollback rules apply, the transaction will roll back on RuntimeException and Error but not on checked exceptions." />
       <item value="class it references to run the tests in that class instead of the runner built into JUnit. We added this feature late in development. While it seems powerful we expect the runner API to change as we learn how people really use it. Some of the classes that are currently internal will likely be refined and become public. For example, suites i" />
       <item value="Alternative to class attribute for factory-method usage. If this is specified, no class attribute should be used. This must be set to the name of a bean in the current or ancestor factories that contains the relevant factory method. This allows the factory itself to be configured using Dependency Injection, and an instance (rather than static) method to be used." />
@@ -31,7 +32,6 @@
       <item value="&gt;Flag to indicate if the run processes should be forked. Disabling forking will disable some features such as an agent, custom JVM arguments, devtools or specifying the working directory to use" />
       <item value="Use names and ensure unique to protect against duplicates" />
       <item value="Canonical names should be kebab-case ('-' separated), lowercase alpha-numeric characters and must start with a letter" />
-      <item value="Whether resources are filtered to replace tokens with parameterised values or not. The values are taken from the &amp;lt;code&amp;gt;properties&amp;lt;code&amp;gt; element and from the properties in the files listed in the &amp;lt;code&amp;gt;filters&amp;lt;code&amp;gt; element." />
       <item value="Describe the directory where the resources are stored. The path is relative to the POM." />
       <item value="This element describes all of the classpath resources such as properties files associated with a project. These resources are often included in the final package." />
       <item value="Distribution information for a project that enables deployment of the site and artifacts to remote web servers and repositories respectively." />
@@ -58,8 +58,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="94" />
-        <entry key="ENGLISH" value="95" />
+        <entry key="CHINESE" value="95" />
+        <entry key="ENGLISH" value="96" />
       </map>
     </option>
   </component>
